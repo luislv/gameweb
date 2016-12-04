@@ -73,6 +73,10 @@ input{font-family: "microsoft yahei", verdana, arial, \5b8b\4f53, tahoma, 'Hirag
 .floatWin-list li:hover{background-color:#ededed;}
 
 /*轮播*/
+.hotPic .arrow-left,.hotPic .arrow-right{width:50px;height:90px; background-color:#000; background-repeat:no-repeat;background-position:center center;opacity:0.2;position:absolute;top:50%;margin-top:-45px;z-index:9;}
+.hotPic .arrow-left:hover,.hotPic .arrow-right:hover{opacity: 0.5}
+.hotPic .arrow-left { background-image:url(../images/arrows-left.png);left: 10px; }
+.hotPic .arrow-right { background-image:url(../images/arrows-right.png);right: 10px; }
 .swiper-container, .swiper-slide { width: 1220px; height: 450px;margin:0; }
 .pagination { position: absolute; left: 0; bottom:20px; width: 88%; padding:0 5%; z-index: 99; }
 .swiper-pagination-switch { display: inline-block; width: 12px; height: 12px; border-radius: 12px; background: #dfdfdf; margin: 0 5px; cursor: pointer; opacity: 0.8; }

@@ -17,6 +17,14 @@ $(function(){
         paginationClickable: true,
         autoplay: 3000
     });
+    $('.arrow-left').on('click', function(e){
+        e.preventDefault()
+        mySwiper.swipePrev()
+    })
+    $('.arrow-right').on('click', function(e){
+        e.preventDefault()
+        mySwiper.swipeNext()
+    })
     //导航
     $(".nav li").on("click",function(){
         $(".nav li").find("a").removeClass("active");
