@@ -10,8 +10,12 @@ input{font-family: "microsoft yahei", verdana, arial, \5b8b\4f53, tahoma, 'Hirag
 .typo-yellow-ff8413, a.typo-yellow-ff8413{color:#ff8413}
 .bg-yellow-ff8413{color:#ff8413}
 .bg-18gray{background-color:#181818;}
+.bg-blue{background-color:#1576DF;}
 .hand{cursor:pointer;}
 .lh {line-height:1}
+.lh2 {line-height:1.2}
+.lh4 {line-height:1.4}
+.lh8 {line-height:1.8}
 .layout {width:1220px;margin:0 auto;}
 .bor-t{border-top:solid 1px #d9d9d9;}
 .bor-l{border-left:solid 1px #d9d9d9;}
@@ -26,11 +30,14 @@ input{font-family: "microsoft yahei", verdana, arial, \5b8b\4f53, tahoma, 'Hirag
 .nav li a.active{color:#ff9413;}
 /*banner*/
 .banner { background-color: #3a3a3a;}
-.hotPic { height: 322px;}
-.login {width:280px;padding:35px 40px 0 0;}
-.loginInp {line-height: 16px;padding:10px;border:1px solid #d9d9d9; border-radius: 2px; -webkit-border-radius: 2px;-moz-border-radius: 2px;}
+.hotPic { height: 450px;}
+.login {width:322px;padding:35px 19px 25px 19px; background-color:#ebebeb;}
+.loginInp { background-color:#fff;line-height: 16px;padding:10px;border:1px solid #d9d9d9; border-radius: 2px; -webkit-border-radius: 2px;-moz-border-radius: 2px;}
 .loginInp input {width:230px;}
-.login .subBtn {width:242px;height:38px;line-height: 38px; background-color: #ff8413;cursor: pointer; border-radius: 2px; -webkit-border-radius: 2px;-moz-border-radius: 2px;margin:20px auto 0 auto;}
+.login .subBtn {width:242px;height:38px;line-height: 38px; background-color: #ff8413;cursor: pointer; border-radius: 2px; -webkit-border-radius: 2px;-moz-border-radius: 2px;margin:10px auto 0 auto;}
+/*最新公告*/
+.news {width:860px;}
+.news-list {width:414px;margin-top:25px;padding-right:10px;}
 /*广告、游戏推荐*/
 .adCon-list{margin-left:-20px;margin-right:-20px;}
 .gameCon-list{margin:-1px}
@@ -61,14 +68,14 @@ input{font-family: "microsoft yahei", verdana, arial, \5b8b\4f53, tahoma, 'Hirag
 .footerNav li, .footerNav li a{color:#626262;}
 .footerCopy{color:#626262;}
 /*右侧浮窗*/
-.floatWin{width:180px;background:#f6f6f6;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;position:fixed;top:500px;right:10px;}
+.floatWin{width:180px;background:#f6f6f6;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;position:fixed;top:500px;right:10px;z-index:999;}
 .floatWin-title{background:#ff8413;border-radius:4px 4px 0 0;}
 .floatWin-list li:hover{background-color:#ededed;}
 
 /*轮播*/
-.swiper-container, .swiper-slide { width: 860px; height: 322px;margin:0; }
-.pagination { position: absolute; left: 0; text-align:right; bottom:20px; width: 88%; padding:0 5%; z-index: 99; }
-.swiper-pagination-switch { display: inline-block; width: 10px; height: 10px; border-radius: 10px; background: #999; margin: 0 5px; cursor: pointer; opacity: 0.8; }
+.swiper-container, .swiper-slide { width: 1220px; height: 450px;margin:0; }
+.pagination { position: absolute; left: 0; bottom:20px; width: 88%; padding:0 5%; z-index: 99; }
+.swiper-pagination-switch { display: inline-block; width: 12px; height: 12px; border-radius: 12px; background: #dfdfdf; margin: 0 5px; cursor: pointer; opacity: 0.8; }
 .swiper-active-switch { background: #fff; }
 
 

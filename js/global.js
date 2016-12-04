@@ -9,8 +9,8 @@ function listAjax (data){
 $(function(){
     //焦点
     var mySwiper = new Swiper('.swiper-container', {
-        width: '860',
-        height: '322',
+        width: '1220',
+        height: '450',
         pagination: '.pagination',
         loop: true,
         grabCursor: true,
